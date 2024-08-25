@@ -6,6 +6,7 @@ import NotFound from './pages/notfound';
 import Eventos from './pages/eventos';
 import VarEstado from './pages/varEstado';
 import Comps from './pages/comps';
+import RenderizacaoCondicional from './pages/rendeCond';
 
 
 
@@ -19,6 +20,7 @@ export default function Navegacao() {
                 <Route path='/Eventos' element={<Eventos />} />
                 <Route path='/varestado' element={<VarEstado/>} />
                 <Route path='/componentes' element={<Comps/>} />
+                <Route path='/rendecond' element={<RenderizacaoCondicional/>} />
 
                 <Route path='*' element= {<NotFound/>} />
             </Routes>

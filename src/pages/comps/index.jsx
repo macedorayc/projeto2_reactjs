@@ -136,7 +136,6 @@ export default function Comps() {
                 )}
 
                 </div>
-
             </div>
 
             <div className='secao planos'>

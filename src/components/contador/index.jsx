@@ -1,5 +1,5 @@
 import './index.scss';
-import {useState} from 'react'
+import {useState} from 'react';
 
 export default function Contador(props) {
     const [contador, setContador] = useState(0)
